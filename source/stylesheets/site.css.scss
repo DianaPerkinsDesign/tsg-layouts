@@ -92,3 +92,10 @@ body {
   background: url('/images/st-jude.jpg');
   background-size: cover;
 }
+
+.tsg-logo {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 5;
+}
