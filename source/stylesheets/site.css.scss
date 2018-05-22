@@ -1,24 +1,94 @@
+@import url('https://fonts.googleapis.com/css?family=Varela+Round');
+@import './normalize.css.scss';
+
 body {
-  background-color: #fbc547;
-  color: #333;
-  font-family: -apple-system, BlinkMacSystemFont, "Avenir Next", "Avenir",
-    "Segoe UI", "Lucida Grande", "Helvetica Neue", "Helvetica", "Fira Sans",
-    "Roboto", "Noto", "Droid Sans", "Cantarell", "Oxygen", "Ubuntu",
-    "Franklin Gothic Medium", "Century Gothic", "Liberation Sans", sans-serif;
-  padding: 18vh 1rem;
-  text-align: center;
+  background: #002F43;
 }
 
-a {
-  color: rgba(#000, 0.7);
-
-  &:focus,
-  &:hover {
-    color: rgba(#000, 0.6);
-  }
+.container {
+  width: 1920px;
+  height: 1080px;
+  background: url('/images/background.jpg');
+  overflow: hidden;
+  position: relative;
 }
 
-.middleman-logo {
-  margin-bottom: 1rem;
-  width: 10rem;
+.camera {
+  width: 1152px;
+  height: 648px;
+  background: #002F43;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.game {
+  width: 752px;
+  height: 423px;
+  background: #002F43;
+  position: absolute;
+}
+
+.top-game {
+  top: 0;
+  left: 1168px;
+}
+
+.bottom-game {
+  top: 557px;
+  left: 1168px;
+}
+
+.game-name {
+  width: 752px;
+  height: 59px;
+  position: absolute;
+  background-image: linear-gradient(270deg, #FAD961 0%, #F76B1C 100%);
+}
+
+.top-game-name {
+  top: 423px;
+  left: 1169px;
+}
+
+.bottom-game-name {
+  top: 498px;
+  left: 1169px;
+}
+
+.banners {
+  width: 510px;
+  height: 310px;
+  position: absolute;
+  top: 648px;
+  left: 0;
+}
+
+.alert-area {
+  width: 642px;
+  height: 332px;
+  position: absolute;
+  top: 648px;
+  left: 510px;
+  overflow: hidden; // you don't have to keep this. it's to keep stuff inside the box and not spilling into the gutter on the right
+}
+
+.bottom-bar {
+  width: 1920px;
+  height: 100px;
+  position: absolute;
+  top: 980px;
+  left: 0;
+  background: url('/images/bottom-bar.jpg');
+}
+
+.st-jude-logo {
+  position: absolute;
+  top: 985px;
+  left: 21px;
+  z-index: 5;
+  width: 95px;
+  height: 85px;
+  background: url('/images/st-jude.jpg');
+  background-size: cover;
 }
