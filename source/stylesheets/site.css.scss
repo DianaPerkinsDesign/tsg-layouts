@@ -7,6 +7,140 @@ body {
 
 // **********************************************************************
 //
+// One Video
+//
+// **********************************************************************
+
+.one-video {
+
+  &.container {
+    width: 1920px;
+    height: 1080px;
+    overflow: hidden;
+    position: relative;
+    background: url(/images/snail.png) no-repeat #192736;
+    background-position: 1070px 486px;
+  }
+
+  .camera {
+    width: 733px;
+    height: 657px;
+    background: #000000;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+
+  .game {
+    width: 1168px;
+    height: 657px;
+    background: #000000;
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+
+  .name-bar {
+    height: 59px;
+    position: absolute;
+    background-image: linear-gradient(270deg, #FFB75C 0%, #FA5E22 100%);
+  }
+
+  .game-name {
+    width: 1168px;
+    top: 657px;
+    right: 0;
+  }
+
+  .player-name {
+    width: 733px;
+    top: 657px;
+    left: 0px;
+  }
+
+  .banners {
+    width: 406px;
+    height: 264px;
+    position: absolute;
+    top: 716px;
+    left: 0;
+
+    img {
+      width: 100%;
+    }
+  }
+
+  .alert-area {
+    width: 642px;
+    height: 332px;
+    position: absolute;
+    top: 648px;
+    left: 510px;
+    overflow: hidden; // you don't have to keep this. it's to keep stuff inside the box and not spilling into the gutter on the right
+  }
+
+  .tsg-full-logo {
+    background: linear-gradient(106deg, #364F66 0%, #192736 82%);
+    position: absolute;
+    left: 406px;
+    top: 716px;
+    z-index: 5;
+    width: 328px;
+    height: 264px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    &:after {
+      background: url(/images/tsg-full-logo.png) no-repeat;
+      content: '';
+      display: block;
+      width: 156px;
+      height: 222px;
+    }
+  }
+
+  .bottom-bar {
+    width: 1920px;
+    height: 100px;
+    position: absolute;
+    top: 980px;
+    left: 0;
+    background: url('/images/bottom-bar.png') no-repeat;
+  }
+
+  .charity-logo {
+    position: absolute;
+    top: 985px;
+    left: 21px;
+    z-index: 5;
+    width: 110px;
+    height: 85px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    img {
+      width: 100%;
+    }
+  }
+
+  .tsg-text-logo {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 5;
+  }
+}
+
+
+
+
+
+
+
+// **********************************************************************
+//
 // Two Videos
 //
 // **********************************************************************
