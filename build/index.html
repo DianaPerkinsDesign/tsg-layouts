@@ -6,43 +6,48 @@
     <meta name="viewport"
           content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <!-- Use the title from a page's frontmatter if it has one -->
-    <title>TSG Pokemon</title>
+    <title>TSG Video Layouts</title>
     <link href="/stylesheets/site.css" rel="stylesheet" />
     <script src="/javascripts/site.js"></script>
   </head>
   <body>
-    <div class="container">
-  <!-- Videos -->
-  <section class="camera">
-    <iframe width="1152" height="648" src="https://www.youtube.com/embed/gDMqGxpIqvE" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-  </section>
-  <section class="top-game game">
-    <iframe width="752" height="423" src="https://www.youtube.com/embed/gDMqGxpIqvE" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-  </section>
-  <section class="bottom-game game">
-    <iframe width="752" height="423" src="https://www.youtube.com/embed/gDMqGxpIqvE" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-  </section>
+    <style>
+  /* This is so the dumb styles that are just for this page don't get compiled in the CSS file in the build */
 
-  <!-- TSG Logo -->
-  <img src="/images/tsg.png" class="tsg-logo">
+  body {
+    font-family: sans-serif;
+    color: white;
+    text-align: center;
+  }
 
-  <!-- Game Names -->
-  <div class="top-game-name game-name"></div>
-  <div class="bottom-game-name game-name"></div>
+  .container {
+    padding-top: 30px;
+  }
 
-  <!-- Banners -->
-  <section class="banners">
-    <img src="/images/banner-st-jude.jpg">
-  </section>
+  a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    border: 1px solid #efefef;
+    border-radius: 5px;
+    padding: 20px;
+    max-width: 300px;
+    margin: 0 auto 15px;
+  }
 
-  <!-- Alert Area Under Camera -->
-  <section class="alert-area"></section>
+  a:hover {
+    background: rgba(255,255,255,.05);
+  }
+</style>
 
-  <!-- Bottom Bar -->
-  <div class="st-jude-logo"></div>
-  <section class="bottom-bar">
-    <div class="bottom-bar-content"></div>
-  </section>
+<div class="container">
+
+  <h1>TSG Video Layouts</h1>
+  <div>
+    <a href="/one-video">One Video Layout</a>
+    <a href="/two-videos">Two Video Layout</a>
+    <a href="/legacy">Old Layout (Pokemon 2018)</a>
+  </div>
 
 </div>
 

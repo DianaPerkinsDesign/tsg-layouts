@@ -303,76 +303,257 @@ template {
   display: none; }
 
 body {
-  background: #002F43; }
+  background: #192736; }
 
-.container {
+.one-video.container {
   width: 1920px;
   height: 1080px;
-  background: url("/images/background.jpg");
   overflow: hidden;
-  position: relative; }
-
-.camera {
-  width: 1152px;
-  height: 648px;
-  background: #002F43;
+  position: relative;
+  background: url(/images/snail.png) no-repeat #192736;
+  background-position: 1070px 486px; }
+.one-video .camera {
+  width: 733px;
+  height: 657px;
+  background: #000000;
   position: absolute;
   top: 0;
   left: 0; }
-
-.game {
-  width: 752px;
-  height: 423px;
-  background: #002F43;
-  position: absolute; }
-
-.top-game {
+.one-video .game {
+  width: 1168px;
+  height: 657px;
+  background: #000000;
+  position: absolute;
   top: 0;
-  left: 1168px; }
-
-.bottom-game {
-  top: 557px;
-  left: 1168px; }
-
-.game-name {
-  width: 752px;
+  right: 0; }
+.one-video .name-bar {
   height: 59px;
   position: absolute;
-  background-image: -webkit-gradient(linear, right top, left top, from(#FAD961), to(#F76B1C));
-  background-image: linear-gradient(270deg, #FAD961 0%, #F76B1C 100%); }
-
-.top-game-name {
-  top: 423px;
-  left: 1169px; }
-
-.bottom-game-name {
-  top: 498px;
-  left: 1169px; }
-
-.banners {
-  width: 510px;
-  height: 310px;
+  background-image: -webkit-gradient(linear, right top, left top, from(#FFB75C), to(#FA5E22));
+  background-image: linear-gradient(270deg, #FFB75C 0%, #FA5E22 100%); }
+.one-video .game-name {
+  width: 1168px;
+  top: 657px;
+  right: 0; }
+.one-video .player-name {
+  width: 733px;
+  top: 657px;
+  left: 0px; }
+.one-video .banners {
+  width: 406px;
+  height: 264px;
   position: absolute;
-  top: 648px;
+  top: 716px;
   left: 0; }
-
-.alert-area {
+  .one-video .banners img {
+    width: 100%; }
+.one-video .alert-area {
   width: 642px;
   height: 332px;
   position: absolute;
   top: 648px;
   left: 510px;
   overflow: hidden; }
-
-.bottom-bar {
+.one-video .tsg-full-logo {
+  background: linear-gradient(106deg, #364F66 0%, #192736 82%);
+  position: absolute;
+  left: 406px;
+  top: 716px;
+  z-index: 5;
+  width: 328px;
+  height: 264px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; }
+  .one-video .tsg-full-logo:after {
+    background: url(/images/tsg-full-logo.png) no-repeat;
+    content: '';
+    display: block;
+    width: 156px;
+    height: 222px; }
+.one-video .bottom-bar {
   width: 1920px;
   height: 100px;
   position: absolute;
   top: 980px;
   left: 0;
-  background: url("/images/bottom-bar.jpg"); }
+  background: url("/images/bottom-bar.png") no-repeat; }
+.one-video .charity-logo {
+  position: absolute;
+  top: 985px;
+  left: 21px;
+  z-index: 5;
+  width: 110px;
+  height: 85px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; }
+  .one-video .charity-logo img {
+    width: 100%; }
+.one-video .tsg-text-logo {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 5; }
 
-.st-jude-logo {
+.two-videos.container {
+  width: 1920px;
+  height: 1080px;
+  overflow: hidden;
+  position: relative;
+  background: url(/images/snail.png) no-repeat #192736;
+  background-position: 570px 436px; }
+.two-videos .camera {
+  width: 1152px;
+  height: 648px;
+  background: #002F43;
+  position: absolute;
+  top: 0;
+  left: 0; }
+.two-videos .game {
+  width: 752px;
+  height: 423px;
+  background: #002F43;
+  position: absolute; }
+.two-videos .top-game {
+  top: 0;
+  left: 1168px; }
+.two-videos .bottom-game {
+  top: 557px;
+  left: 1168px; }
+.two-videos .game-name {
+  width: 752px;
+  height: 59px;
+  position: absolute;
+  background-image: -webkit-gradient(linear, right top, left top, from(#FFB75C), to(#FA5E22));
+  background-image: linear-gradient(270deg, #FFB75C 0%, #FA5E22 100%); }
+.two-videos .top-game-name {
+  top: 423px;
+  left: 1169px; }
+.two-videos .bottom-game-name {
+  top: 498px;
+  left: 1169px; }
+.two-videos .banners {
+  width: 510px;
+  height: 310px;
+  position: absolute;
+  top: 648px;
+  left: 0; }
+.two-videos .alert-area {
+  width: 642px;
+  height: 332px;
+  position: absolute;
+  top: 648px;
+  left: 510px;
+  overflow: hidden; }
+.two-videos .tsg-full-logo {
+  background: url(/images/tsg-full-logo.png) no-repeat;
+  width: 156px;
+  height: 222px;
+  position: absolute;
+  left: 987px;
+  top: 743px;
+  z-index: 5; }
+.two-videos .bottom-bar {
+  width: 1920px;
+  height: 100px;
+  position: absolute;
+  top: 980px;
+  left: 0;
+  background: url("/images/bottom-bar.png") no-repeat; }
+.two-videos .charity-logo {
+  position: absolute;
+  top: 985px;
+  left: 21px;
+  z-index: 5;
+  width: 110px;
+  height: 85px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; }
+  .two-videos .charity-logo img {
+    width: 100%; }
+.two-videos .tsg-text-logo {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 5; }
+
+.legacy.container {
+  width: 1920px;
+  height: 1080px;
+  background: url("/images/legacy/background.jpg");
+  overflow: hidden;
+  position: relative; }
+.legacy .camera {
+  width: 1152px;
+  height: 648px;
+  background: #002F43;
+  position: absolute;
+  top: 0;
+  left: 0; }
+.legacy .game {
+  width: 752px;
+  height: 423px;
+  background: #002F43;
+  position: absolute; }
+.legacy .top-game {
+  top: 0;
+  left: 1168px; }
+.legacy .bottom-game {
+  top: 557px;
+  left: 1168px; }
+.legacy .game-name {
+  width: 752px;
+  height: 59px;
+  position: absolute;
+  background-image: -webkit-gradient(linear, right top, left top, from(#FAD961), to(#F76B1C));
+  background-image: linear-gradient(270deg, #FAD961 0%, #F76B1C 100%); }
+.legacy .top-game-name {
+  top: 423px;
+  left: 1169px; }
+.legacy .bottom-game-name {
+  top: 498px;
+  left: 1169px; }
+.legacy .banners {
+  width: 510px;
+  height: 310px;
+  position: absolute;
+  top: 648px;
+  left: 0; }
+.legacy .alert-area {
+  width: 642px;
+  height: 332px;
+  position: absolute;
+  top: 648px;
+  left: 510px;
+  overflow: hidden; }
+.legacy .bottom-bar {
+  width: 1920px;
+  height: 100px;
+  position: absolute;
+  top: 980px;
+  left: 0;
+  background: url("/images/legacy/bottom-bar.jpg"); }
+.legacy .st-jude-logo {
   position: absolute;
   top: 985px;
   left: 21px;
@@ -381,8 +562,7 @@ body {
   height: 85px;
   background: url("/images/st-jude.jpg");
   background-size: cover; }
-
-.tsg-logo {
+.legacy .tsg-logo {
   position: absolute;
   top: 0;
   left: 0;
