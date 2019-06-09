@@ -111,10 +111,10 @@ body {
 
   .charity-logo {
     position: absolute;
-    top: 985px;
+    top: 987px;
     left: 21px;
     z-index: 5;
-    width: 110px;
+    width: 100px;
     height: 85px;
     display: flex;
     justify-content: center;
@@ -368,5 +368,181 @@ body {
     top: 0;
     left: 0;
     z-index: 5;
+  }
+}
+
+
+// **********************************************************************
+//
+// Zelda 2019
+//
+// **********************************************************************
+
+// This layout changes color based on a single class given to the .container div
+
+.zelda-2019 {
+  // start css from one-video
+  &.container {
+    width: 1920px;
+    height: 1080px;
+    overflow: hidden;
+    position: relative;
+    background: url(/images/snail.png) no-repeat #192736;
+    background-position: 1070px 486px;
+  }
+
+  .camera {
+    width: 733px;
+    height: 657px;
+    background: #000000;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+
+  .game {
+    width: 1168px;
+    height: 657px;
+    background: #000000;
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+
+  .name-bar {
+    height: 59px;
+    position: absolute;
+    background-image: linear-gradient(-89deg, #FFC75C 0%, #DD8C00 100%);
+  }
+
+  .game-name {
+    width: 1168px;
+    top: 657px;
+    right: 0;
+  }
+
+  .player-name {
+    width: 733px;
+    top: 657px;
+    left: 0px;
+  }
+
+  .banners {
+    width: 406px;
+    height: 264px;
+    position: absolute;
+    top: 716px;
+    left: 0;
+
+    img {
+      width: 100%;
+    }
+  }
+
+  .alert-area {
+    width: 642px;
+    height: 332px;
+    position: absolute;
+    top: 648px;
+    left: 510px;
+    overflow: hidden; // you don't have to keep this. it's to keep stuff inside the box and not spilling into the gutter on the right
+  }
+
+  .tsg-full-logo {
+    background: linear-gradient(106deg, #364F66 0%, #192736 82%);
+    position: absolute;
+    left: 406px;
+    top: 716px;
+    z-index: 5;
+    width: 328px;
+    height: 264px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    &:after {
+      background: url(/images/tsg-full-logo.png) no-repeat;
+      content: '';
+      display: block;
+      width: 156px;
+      height: 222px;
+    }
+  }
+
+  .bottom-bar {
+    width: 1920px;
+    height: 100px;
+    position: absolute;
+    top: 980px;
+    left: 0;
+    background: url('/images/bottom-bar.png') no-repeat;
+  }
+
+  .charity-logo {
+    position: absolute;
+    top: 987px;
+    left: 21px;
+    z-index: 5;
+    width: 100px;
+    height: 85px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    img {
+      width: 100%;
+    }
+  }
+
+  .tsg-text-logo {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 5;
+  }
+  // end css from one video
+
+  // start zelda specific styles
+
+  &.hyrule {
+    &.container {
+      background: url(/images/zelda-2019/hyrule-background.png) no-repeat transparent;
+      background-position: 0 0;
+    }
+
+    .tsg-full-logo {
+      background: url(/images/zelda-2019/hyrule-triforce-background.png) no-repeat transparent;
+
+      &:after {
+        background: none;
+        content: '';
+        display: none;
+      }
+    }
+
+    .bottom-bar {
+      background: url('/images/zelda-2019/hyrule-bottom-bar.png') no-repeat;
+    }
+  }
+
+  &.lorule {
+    &.container {
+      background: url(/images/zelda-2019/lorule-background.png) no-repeat transparent;
+      background-position: 0 0;
+    }
+
+    .tsg-full-logo {
+      background: url(/images/zelda-2019/lorule-triforce-background.png) no-repeat transparent;
+
+      &:after {
+        background: none;
+        content: '';
+        display: none;
+      }
+    }
+
+    .bottom-bar {
+      background: url('/images/zelda-2019/lorule-bottom-bar.png') no-repeat;
+    }
   }
 }
