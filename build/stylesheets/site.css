@@ -312,6 +312,7 @@ body {
   position: relative;
   background: url(/images/snail.png) no-repeat #192736;
   background-position: 1070px 486px; }
+
 .one-video .camera {
   width: 733px;
   height: 657px;
@@ -319,6 +320,7 @@ body {
   position: absolute;
   top: 0;
   left: 0; }
+
 .one-video .game {
   width: 1168px;
   height: 657px;
@@ -326,19 +328,23 @@ body {
   position: absolute;
   top: 0;
   right: 0; }
+
 .one-video .name-bar {
   height: 59px;
   position: absolute;
   background-image: -webkit-gradient(linear, right top, left top, from(#FFB75C), to(#FA5E22));
   background-image: linear-gradient(270deg, #FFB75C 0%, #FA5E22 100%); }
+
 .one-video .game-name {
   width: 1168px;
   top: 657px;
   right: 0; }
+
 .one-video .player-name {
   width: 733px;
   top: 657px;
   left: 0px; }
+
 .one-video .banners {
   width: 406px;
   height: 264px;
@@ -347,6 +353,7 @@ body {
   left: 0; }
   .one-video .banners img {
     width: 100%; }
+
 .one-video .alert-area {
   width: 642px;
   height: 332px;
@@ -354,6 +361,7 @@ body {
   top: 648px;
   left: 510px;
   overflow: hidden; }
+
 .one-video .tsg-full-logo {
   background: linear-gradient(106deg, #364F66 0%, #192736 82%);
   position: absolute;
@@ -362,21 +370,16 @@ body {
   z-index: 5;
   width: 328px;
   height: 264px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center; }
+  justify-content: center;
+  align-items: center; }
   .one-video .tsg-full-logo:after {
     background: url(/images/tsg-full-logo.png) no-repeat;
     content: '';
     display: block;
     width: 156px;
     height: 222px; }
+
 .one-video .bottom-bar {
   width: 1920px;
   height: 100px;
@@ -384,24 +387,20 @@ body {
   top: 980px;
   left: 0;
   background: url("/images/bottom-bar.png") no-repeat; }
+
 .one-video .charity-logo {
   position: absolute;
-  top: 985px;
+  top: 987px;
   left: 21px;
   z-index: 5;
-  width: 110px;
+  width: 100px;
   height: 85px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center; }
+  justify-content: center;
+  align-items: center; }
   .one-video .charity-logo img {
     width: 100%; }
+
 .one-video .tsg-text-logo {
   position: absolute;
   top: 0;
@@ -415,6 +414,7 @@ body {
   position: relative;
   background: url(/images/snail.png) no-repeat #192736;
   background-position: 570px 436px; }
+
 .two-videos .camera {
   width: 1152px;
   height: 648px;
@@ -422,35 +422,43 @@ body {
   position: absolute;
   top: 0;
   left: 0; }
+
 .two-videos .game {
   width: 752px;
   height: 423px;
   background: #002F43;
   position: absolute; }
+
 .two-videos .top-game {
   top: 0;
   left: 1168px; }
+
 .two-videos .bottom-game {
   top: 557px;
   left: 1168px; }
+
 .two-videos .game-name {
   width: 752px;
   height: 59px;
   position: absolute;
   background-image: -webkit-gradient(linear, right top, left top, from(#FFB75C), to(#FA5E22));
   background-image: linear-gradient(270deg, #FFB75C 0%, #FA5E22 100%); }
+
 .two-videos .top-game-name {
   top: 423px;
   left: 1169px; }
+
 .two-videos .bottom-game-name {
   top: 498px;
   left: 1169px; }
+
 .two-videos .banners {
   width: 510px;
   height: 310px;
   position: absolute;
   top: 648px;
   left: 0; }
+
 .two-videos .alert-area {
   width: 642px;
   height: 332px;
@@ -458,6 +466,7 @@ body {
   top: 648px;
   left: 510px;
   overflow: hidden; }
+
 .two-videos .tsg-full-logo {
   background: url(/images/tsg-full-logo.png) no-repeat;
   width: 156px;
@@ -466,6 +475,7 @@ body {
   left: 987px;
   top: 743px;
   z-index: 5; }
+
 .two-videos .bottom-bar {
   width: 1920px;
   height: 100px;
@@ -473,6 +483,7 @@ body {
   top: 980px;
   left: 0;
   background: url("/images/bottom-bar.png") no-repeat; }
+
 .two-videos .charity-logo {
   position: absolute;
   top: 985px;
@@ -480,17 +491,12 @@ body {
   z-index: 5;
   width: 110px;
   height: 85px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center; }
+  justify-content: center;
+  align-items: center; }
   .two-videos .charity-logo img {
     width: 100%; }
+
 .two-videos .tsg-text-logo {
   position: absolute;
   top: 0;
@@ -503,6 +509,7 @@ body {
   background: url("/images/legacy/background.jpg");
   overflow: hidden;
   position: relative; }
+
 .legacy .camera {
   width: 1152px;
   height: 648px;
@@ -510,35 +517,43 @@ body {
   position: absolute;
   top: 0;
   left: 0; }
+
 .legacy .game {
   width: 752px;
   height: 423px;
   background: #002F43;
   position: absolute; }
+
 .legacy .top-game {
   top: 0;
   left: 1168px; }
+
 .legacy .bottom-game {
   top: 557px;
   left: 1168px; }
+
 .legacy .game-name {
   width: 752px;
   height: 59px;
   position: absolute;
   background-image: -webkit-gradient(linear, right top, left top, from(#FAD961), to(#F76B1C));
   background-image: linear-gradient(270deg, #FAD961 0%, #F76B1C 100%); }
+
 .legacy .top-game-name {
   top: 423px;
   left: 1169px; }
+
 .legacy .bottom-game-name {
   top: 498px;
   left: 1169px; }
+
 .legacy .banners {
   width: 510px;
   height: 310px;
   position: absolute;
   top: 648px;
   left: 0; }
+
 .legacy .alert-area {
   width: 642px;
   height: 332px;
@@ -546,6 +561,7 @@ body {
   top: 648px;
   left: 510px;
   overflow: hidden; }
+
 .legacy .bottom-bar {
   width: 1920px;
   height: 100px;
@@ -553,6 +569,7 @@ body {
   top: 980px;
   left: 0;
   background: url("/images/legacy/bottom-bar.jpg"); }
+
 .legacy .st-jude-logo {
   position: absolute;
   top: 985px;
@@ -562,8 +579,138 @@ body {
   height: 85px;
   background: url("/images/st-jude.jpg");
   background-size: cover; }
+
 .legacy .tsg-logo {
   position: absolute;
   top: 0;
   left: 0;
   z-index: 5; }
+
+.zelda-2019.container {
+  width: 1920px;
+  height: 1080px;
+  overflow: hidden;
+  position: relative;
+  background: url(/images/snail.png) no-repeat #192736;
+  background-position: 1070px 486px; }
+
+.zelda-2019 .camera {
+  width: 733px;
+  height: 657px;
+  background: #000000;
+  position: absolute;
+  top: 0;
+  left: 0; }
+
+.zelda-2019 .game {
+  width: 1168px;
+  height: 657px;
+  background: #000000;
+  position: absolute;
+  top: 0;
+  right: 0; }
+
+.zelda-2019 .name-bar {
+  height: 59px;
+  position: absolute;
+  background-image: linear-gradient(-89deg, #FFC75C 0%, #DD8C00 100%); }
+
+.zelda-2019 .game-name {
+  width: 1168px;
+  top: 657px;
+  right: 0; }
+
+.zelda-2019 .player-name {
+  width: 733px;
+  top: 657px;
+  left: 0px; }
+
+.zelda-2019 .banners {
+  width: 406px;
+  height: 264px;
+  position: absolute;
+  top: 716px;
+  left: 0; }
+  .zelda-2019 .banners img {
+    width: 100%; }
+
+.zelda-2019 .alert-area {
+  width: 642px;
+  height: 332px;
+  position: absolute;
+  top: 648px;
+  left: 510px;
+  overflow: hidden; }
+
+.zelda-2019 .tsg-full-logo {
+  background: linear-gradient(106deg, #364F66 0%, #192736 82%);
+  position: absolute;
+  left: 406px;
+  top: 716px;
+  z-index: 5;
+  width: 328px;
+  height: 264px;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  .zelda-2019 .tsg-full-logo:after {
+    background: url(/images/tsg-full-logo.png) no-repeat;
+    content: '';
+    display: block;
+    width: 156px;
+    height: 222px; }
+
+.zelda-2019 .bottom-bar {
+  width: 1920px;
+  height: 100px;
+  position: absolute;
+  top: 980px;
+  left: 0;
+  background: url("/images/bottom-bar.png") no-repeat; }
+
+.zelda-2019 .charity-logo {
+  position: absolute;
+  top: 987px;
+  left: 21px;
+  z-index: 5;
+  width: 100px;
+  height: 85px;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  .zelda-2019 .charity-logo img {
+    width: 100%; }
+
+.zelda-2019 .tsg-text-logo {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 5; }
+
+.zelda-2019.hyrule.container {
+  background: url(/images/zelda-2019/hyrule-background.png) no-repeat transparent;
+  background-position: 0 0; }
+
+.zelda-2019.hyrule .tsg-full-logo {
+  background: url(/images/zelda-2019/hyrule-triforce-background.png) no-repeat transparent; }
+  .zelda-2019.hyrule .tsg-full-logo:after {
+    background: none;
+    content: '';
+    display: none; }
+
+.zelda-2019.hyrule .bottom-bar {
+  background: url("/images/zelda-2019/hyrule-bottom-bar.png") no-repeat; }
+
+.zelda-2019.lorule.container {
+  background: url(/images/zelda-2019/lorule-background.png) no-repeat transparent;
+  background-position: 0 0; }
+
+.zelda-2019.lorule .tsg-full-logo {
+  background: url(/images/zelda-2019/lorule-triforce-background.png) no-repeat transparent; }
+  .zelda-2019.lorule .tsg-full-logo:after {
+    background: none;
+    content: '';
+    display: none; }
+
+.zelda-2019.lorule .bottom-bar {
+  background: url("/images/zelda-2019/lorule-bottom-bar.png") no-repeat; }
