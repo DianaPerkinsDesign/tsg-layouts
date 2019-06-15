@@ -687,30 +687,44 @@ body {
   left: 0;
   z-index: 5; }
 
-.zelda-2019.hyrule.container {
+.zelda-2019.container {
   background: url(/images/zelda-2019/hyrule-background.png) no-repeat transparent;
   background-position: 0 0; }
+  .zelda-2019.container:before {
+    content: '';
+    width: 100%;
+    height: 100%;
+    display: block;
+    -webkit-transition: all 1s;
+    transition: all 1s;
+    background: url(/images/zelda-2019/lorule-background.png) no-repeat transparent;
+    background-position: 0 0;
+    z-index: 100;
+    opacity: 0; }
 
-.zelda-2019.hyrule .tsg-full-logo {
-  background: url(/images/zelda-2019/hyrule-triforce-background.png) no-repeat transparent; }
-  .zelda-2019.hyrule .tsg-full-logo:after {
+.zelda-2019 .tsg-full-logo {
+  background: transparent; }
+  .zelda-2019 .tsg-full-logo:after {
     background: none;
     content: '';
     display: none; }
 
-.zelda-2019.hyrule .bottom-bar {
+.zelda-2019 .bottom-bar {
   background: url("/images/zelda-2019/hyrule-bottom-bar.png") no-repeat; }
-
-.zelda-2019.lorule.container {
-  background: url(/images/zelda-2019/lorule-background.png) no-repeat transparent;
-  background-position: 0 0; }
-
-.zelda-2019.lorule .tsg-full-logo {
-  background: url(/images/zelda-2019/lorule-triforce-background.png) no-repeat transparent; }
-  .zelda-2019.lorule .tsg-full-logo:after {
-    background: none;
+  .zelda-2019 .bottom-bar:before {
     content: '';
-    display: none; }
+    width: 100%;
+    height: 100%;
+    display: block;
+    -webkit-transition: all 1s;
+    transition: all 1s;
+    background: url(/images/zelda-2019/lorule-bottom-bar.png) no-repeat transparent;
+    background-position: 0 0;
+    z-index: 100;
+    opacity: 0; }
 
-.zelda-2019.lorule .bottom-bar {
-  background: url("/images/zelda-2019/lorule-bottom-bar.png") no-repeat; }
+.zelda-2019.lorule.container:before {
+  opacity: 1; }
+
+.zelda-2019.lorule .bottom-bar:before {
+  opacity: 1; }
