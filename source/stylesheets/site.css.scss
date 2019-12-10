@@ -2,7 +2,7 @@
 @import './normalize.css.scss';
 
 body {
-  background: #192736;
+  background: #06192E;
 }
 
 // **********************************************************************
@@ -18,7 +18,7 @@ body {
     height: 1080px;
     overflow: hidden;
     position: relative;
-    background: url(/images/snail.png) no-repeat #192736;
+    background: url(/images/snail.png) no-repeat #06192E;
     background-position: 1070px 486px;
   }
 
@@ -80,7 +80,7 @@ body {
   }
 
   .tsg-full-logo {
-    background: linear-gradient(106deg, #364F66 0%, #192736 82%);
+    background: linear-gradient(106deg, #003D62 0%, #06192E 82%);
     position: absolute;
     left: 406px;
     top: 716px;
@@ -152,14 +152,14 @@ body {
     height: 1080px;
     overflow: hidden;
     position: relative;
-    background: url(/images/snail.png) no-repeat #192736;
+    background: url(/images/snail.png) no-repeat #06192E;
     background-position: 570px 436px;
   }
 
   .camera {
     width: 1152px;
     height: 648px;
-    background: #002F43;
+    background: #06192E;
     position: absolute;
     top: 0;
     left: 0;
@@ -168,7 +168,7 @@ body {
   .game {
     width: 752px;
     height: 423px;
-    background: #002F43;
+    background: #06192E;
     position: absolute;
   }
 

@@ -303,14 +303,14 @@ template {
   display: none; }
 
 body {
-  background: #192736; }
+  background: #06192E; }
 
 .one-video.container {
   width: 1920px;
   height: 1080px;
   overflow: hidden;
   position: relative;
-  background: url(/images/snail.png) no-repeat #192736;
+  background: url(/images/snail.png) no-repeat #06192E;
   background-position: 1070px 486px; }
 
 .one-video .camera {
@@ -363,7 +363,7 @@ body {
   overflow: hidden; }
 
 .one-video .tsg-full-logo {
-  background: linear-gradient(106deg, #364F66 0%, #192736 82%);
+  background: linear-gradient(106deg, #114969 0%, #06192E 82%);
   position: absolute;
   left: 406px;
   top: 716px;

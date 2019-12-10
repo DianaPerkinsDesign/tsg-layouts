@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1920px" height="100px" viewBox="0 0 1920 100" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 60.1 (88133) - https://sketch.com -->
+    <title>Group 5</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="100%" y1="50%" x2="0%" y2="50%" id="linearGradient-1">
+            <stop stop-color="#06192E" offset="0%"></stop>
+            <stop stop-color="#0C325C" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="113.655751%" y1="74.1666675%" x2="-4.46904128%" y2="74.1666667%" id="linearGradient-2">
+            <stop stop-color="#FFB75C" offset="0%"></stop>
+            <stop stop-color="#FA5E22" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="113.655751%" y1="74.1666675%" x2="-4.46904128%" y2="74.1666667%" id="linearGradient-3">
+            <stop stop-color="#FFB75C" offset="0%"></stop>
+            <stop stop-color="#FA5E22" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="one-smoll-game-copy-2" transform="translate(0.000000, -980.000000)">
+            <g id="Group-5" transform="translate(-20.000000, 980.000000)">
+                <rect id="Rectangle-2" fill="url(#linearGradient-1)" x="20" y="0" width="1920" height="100"></rect>
+                <polygon id="Rectangle-6" fill="url(#linearGradient-2)" points="1564 0 1942 0 1942 100 1544 100"></polygon>
+                <polygon id="Rectangle-6" fill="url(#linearGradient-3)" opacity="0.801004464" points="1544 0 1942 0 1942 100 1524 100"></polygon>
+                <polygon id="Rectangle-7" fill="#FFFFFF" opacity="0.837834821" points="20 0 203 0 183 101 20 101"></polygon>
+                <polygon id="Rectangle-7" fill="#FFFFFF" points="0 0 183 0 163 101 0 101"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>
