@@ -555,3 +555,105 @@ body {
     }
   }
 }
+
+
+// **********************************************************************
+//
+// Mario 2020
+//
+// **********************************************************************
+.mario-2020 {
+
+  &.container {
+    height: 1080px;
+    width: 1920px;
+    overflow: hidden;
+    position: relative;
+    background:  #192736;
+  }
+
+  .camera {
+    height: 727px;
+    width: 619px;
+    background: #000000;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+
+  .game {
+    height: 727px;
+    width: 1293px;
+    background: #000000;
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+
+  .name-overlay {
+    height: 156px;
+    width: 600px;
+    background: url(/images/mario-2020/name-overlay.png) no-repeat;
+    position: absolute;
+    overflow: hidden;
+    top: 500px;
+    left: 627px;
+  }
+
+  .donation-area {
+    height: 345px;
+    width: 619px;
+    background: url(/images/mario-2020/donation-area-bkg.png) no-repeat #192736;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+
+    .donation-bar {
+      height: 100px;
+      width: 618px;
+      background: url(/images/mario-2020/donation-bar.png) no-repeat;
+      position: absolute;
+      bottom: 15px;
+      left: 0;
+    }
+  }
+
+  .bounties {
+    height: 330px;
+    width: 608px;
+    background: url(/images/mario-2020/nabbit.png) no-repeat #192736;
+    background-position: bottom right;
+    position: absolute;
+    bottom: 15px;
+    left: 628px;
+
+    h1 {
+      font-family: ArialRoundedMTBold;
+      font-size: 36px;
+      color: #FFFFFF;
+      text-shadow: 2px 2px 1px rgba(0,0,0,0.30);
+      display: flex;
+      align-items: center;
+      border-bottom: 1px solid #555E66;
+      padding: 0 0 25px 25px;
+
+      img {
+        margin-right: 15px;
+      }
+    }
+  }
+
+  .banners {
+    width: 665px;
+    height: 332px;
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    overflow: hidden;
+
+    img {
+      width: 100%;
+    }
+  }
+  
+}

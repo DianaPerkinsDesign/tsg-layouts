@@ -363,7 +363,7 @@ body {
   overflow: hidden; }
 
 .one-video .tsg-full-logo {
-  background: linear-gradient(106deg, #114969 0%, #06192E 82%);
+  background: linear-gradient(106deg, #003D62 0%, #06192E 82%);
   position: absolute;
   left: 406px;
   top: 716px;
@@ -412,13 +412,13 @@ body {
   height: 1080px;
   overflow: hidden;
   position: relative;
-  background: url(/images/snail.png) no-repeat #192736;
+  background: url(/images/snail.png) no-repeat #06192E;
   background-position: 570px 436px; }
 
 .two-videos .camera {
   width: 1152px;
   height: 648px;
-  background: #002F43;
+  background: #06192E;
   position: absolute;
   top: 0;
   left: 0; }
@@ -426,7 +426,7 @@ body {
 .two-videos .game {
   width: 752px;
   height: 423px;
-  background: #002F43;
+  background: #06192E;
   position: absolute; }
 
 .two-videos .top-game {
@@ -728,3 +728,80 @@ body {
 
 .zelda-2019.lorule .bottom-bar:before {
   opacity: 1; }
+
+.mario-2020.container {
+  height: 1080px;
+  width: 1920px;
+  overflow: hidden;
+  position: relative;
+  background: #192736; }
+
+.mario-2020 .camera {
+  height: 727px;
+  width: 619px;
+  background: #000000;
+  position: absolute;
+  top: 0;
+  left: 0; }
+
+.mario-2020 .game {
+  height: 727px;
+  width: 1293px;
+  background: #000000;
+  position: absolute;
+  top: 0;
+  right: 0; }
+
+.mario-2020 .name-overlay {
+  height: 156px;
+  width: 600px;
+  background: url(/images/mario-2020/name-overlay.png) no-repeat;
+  position: absolute;
+  overflow: hidden;
+  top: 500px;
+  left: 627px; }
+
+.mario-2020 .donation-area {
+  height: 345px;
+  width: 619px;
+  background: url(/images/mario-2020/donation-area-bkg.png) no-repeat #192736;
+  position: absolute;
+  bottom: 0;
+  left: 0; }
+  .mario-2020 .donation-area .donation-bar {
+    height: 100px;
+    width: 618px;
+    background: url(/images/mario-2020/donation-bar.png) no-repeat;
+    position: absolute;
+    bottom: 15px;
+    left: 0; }
+
+.mario-2020 .bounties {
+  height: 330px;
+  width: 608px;
+  background: url(/images/mario-2020/nabbit.png) no-repeat #192736;
+  background-position: bottom right;
+  position: absolute;
+  bottom: 15px;
+  left: 628px; }
+  .mario-2020 .bounties h1 {
+    font-family: ArialRoundedMTBold;
+    font-size: 36px;
+    color: #FFFFFF;
+    text-shadow: 2px 2px 1px rgba(0, 0, 0, 0.3);
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #555E66;
+    padding: 0 0 25px 25px; }
+    .mario-2020 .bounties h1 img {
+      margin-right: 15px; }
+
+.mario-2020 .banners {
+  width: 665px;
+  height: 332px;
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  overflow: hidden; }
+  .mario-2020 .banners img {
+    width: 100%; }
