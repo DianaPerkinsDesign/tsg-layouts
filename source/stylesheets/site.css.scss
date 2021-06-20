@@ -727,6 +727,7 @@ body {
 
     img {
       max-width: 100%;
+      max-height: 100%;
       align-self: center;
     }
   }
@@ -753,5 +754,97 @@ body {
     position: absolute;
     top: 776px;
     left: 1333px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    img {
+      max-width: 100%;
+      max-height: 100%;
+      align-self: center;
+    }
+  }
+}
+
+
+// **********************************************************************
+//
+// Zelda 2021 - Two Videos
+//
+// **********************************************************************
+
+.zelda-2021-two { 
+  
+  * {
+    box-sizing: border-box;
+  }
+
+  &.container {
+    height: 1080px;
+    width: 1920px;
+    overflow: hidden;
+    position: relative;
+    background:  #192736;
+  }
+
+  .logo-and-total {
+    background-image: linear-gradient(89deg, #FFB75C 0%, #FA5E22 100%);
+    width: 540px;
+    height: 95px;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+
+  .tsg-text-logo {
+    width: 173px;
+    height: 81px;
+    position: absolute;
+    top: 5px;
+    left: 11px;
+  }
+  
+  .camera {
+    border: 5px solid #FC7F37;
+    width: 540px;
+    height: 303.75px;
+    position: absolute;
+    top: 95px;
+    left: 0;
+  }
+
+  .game {
+    width: 1380px;
+    height: 1080px;
+    position: absolute;
+    top: 0;
+    left: 540px;
+
+    background: black;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+  }
+  
+  .banners {
+    border: 5px solid #FC7F37;
+    width: 540px;
+    height: 685px;
+    position: absolute;
+    top: 395px;
+    left: 0;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    img {
+      max-width: 100%;
+      max-height: 100%;
+      align-self: center;
+    }
   }
 }
