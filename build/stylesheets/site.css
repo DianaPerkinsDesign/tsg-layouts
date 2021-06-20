@@ -805,3 +805,149 @@ body {
   overflow: hidden; }
   .mario-2020 .banners img {
     width: 100%; }
+
+.zelda-2021-one * {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box; }
+
+.zelda-2021-one.container {
+  height: 1080px;
+  width: 1920px;
+  overflow: hidden;
+  position: relative;
+  background: #192736; }
+
+.zelda-2021-one .logo-and-total {
+  background-image: linear-gradient(89deg, #FFB75C 0%, #FA5E22 100%);
+  width: 540px;
+  height: 95px;
+  position: absolute;
+  top: 0;
+  left: 0; }
+
+.zelda-2021-one .tsg-text-logo {
+  width: 173px;
+  height: 81px;
+  position: absolute;
+  top: 5px;
+  left: 11px; }
+
+.zelda-2021-one .camera {
+  border: 5px solid #FC7F37;
+  width: 540px;
+  height: 303.75px;
+  position: absolute;
+  top: 95px;
+  left: 0; }
+
+.zelda-2021-one .game {
+  width: 1380px;
+  height: 776px;
+  position: absolute;
+  top: 0;
+  left: 540px; }
+
+.zelda-2021-one .banners {
+  border: 5px solid #FC7F37;
+  width: 540px;
+  height: 685px;
+  position: absolute;
+  top: 395px;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+  .zelda-2021-one .banners img {
+    max-width: 100%;
+    max-height: 100%;
+    -ms-grid-row-align: center;
+        align-self: center; }
+
+.zelda-2021-one .info-area {
+  border: 5px solid #FC7F37;
+  width: 805px;
+  height: 304px;
+  position: absolute;
+  top: 776px;
+  left: 535px; }
+  .zelda-2021-one .info-area header {
+    background: #FC7C36;
+    height: 68px;
+    width: 797px; }
+
+.zelda-2021-one .bounties {
+  border: 5px solid #FC7F37;
+  width: 587px;
+  height: 304px;
+  position: absolute;
+  top: 776px;
+  left: 1333px;
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+  .zelda-2021-one .bounties img {
+    max-width: 100%;
+    max-height: 100%;
+    -ms-grid-row-align: center;
+        align-self: center; }
+
+.zelda-2021-two * {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box; }
+
+.zelda-2021-two.container {
+  height: 1080px;
+  width: 1920px;
+  overflow: hidden;
+  position: relative;
+  background: #192736; }
+
+.zelda-2021-two .logo-and-total {
+  background-image: linear-gradient(89deg, #FFB75C 0%, #FA5E22 100%);
+  width: 540px;
+  height: 95px;
+  position: absolute;
+  top: 0;
+  left: 0; }
+
+.zelda-2021-two .tsg-text-logo {
+  width: 173px;
+  height: 81px;
+  position: absolute;
+  top: 5px;
+  left: 11px; }
+
+.zelda-2021-two .camera {
+  border: 5px solid #FC7F37;
+  width: 540px;
+  height: 303.75px;
+  position: absolute;
+  top: 95px;
+  left: 0; }
+
+.zelda-2021-two .game {
+  width: 1380px;
+  height: 1080px;
+  position: absolute;
+  top: 0;
+  left: 540px;
+  background: black;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.zelda-2021-two .banners {
+  border: 5px solid #FC7F37;
+  width: 540px;
+  height: 685px;
+  position: absolute;
+  top: 395px;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+  .zelda-2021-two .banners img {
+    max-width: 100%;
+    max-height: 100%;
+    -ms-grid-row-align: center;
+        align-self: center; }
